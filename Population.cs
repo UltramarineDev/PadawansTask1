@@ -9,7 +9,7 @@ namespace PadawansTask1
             int years = 0;
             // put your code here
             // throw new NotImplementedException();
-            if (initialPopulation > currentPopulation || initialPopulation < 0 || currentPopulation < 0 || visitors < 0 || percent < 0)
+            if (initialPopulation > currentPopulation || initialPopulation <= 0 || currentPopulation <= 0 || visitors < 0 || percent < 0)
             {
                 throw new ArgumentException();
             }
